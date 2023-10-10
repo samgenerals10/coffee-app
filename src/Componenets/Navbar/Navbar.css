@@ -1,0 +1,61 @@
+.logo{
+    border-radius: 50%;
+}
+.logo_hearder{
+  color: rgb(255, 132, 0) !important;
+  grid-template-rows: none;
+  font-size: small;
+ 
+}
+
+.Nav-div{
+    width: 100%;
+    /* background-color: #000; */
+    
+}
+/* .nav{
+    color: #fff;
+    width: 20%;
+   
+    
+
+} */
+
+.navlist{
+    justify-content: center !important;
+    align-content: center !important;
+}
+
+.navlist-Animate {
+    background-color: transparent;
+    border: 3px solid #ff0251;
+    color: #ff0251;
+    transition: .3s;
+  }
+  .navlist-Animate:hover {
+    animation: pulse 1s infinite;
+    transition: .3s;
+    color: rgb(66, 41, 8) !important;
+    background-color: #b76c04 !important;
+  }
+  @keyframes pulse {
+    0% {
+      transform: scale(1);
+    }
+    70% {
+      transform: scale(.9);
+    }
+      100% {
+      transform: scale(1);
+    }
+  }
+  
+
+
+/* .buttonList1{
+    border-radius: 40px;
+    height: 40px;
+    width: 100px;
+    background: rgb(154, 94, 4);
+    
+} */

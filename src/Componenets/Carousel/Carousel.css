@@ -1,0 +1,35 @@
+.CaroCaro{
+    /* padding-top: 20%; */
+    margin-top: 60%;
+}
+.CaroCaro_1{
+    margin-top: 68%;
+}
+.botton_list{
+    width: 120px !important;
+    height: 35px !important;
+    background-color: rgba(103, 43, 3, 0.893) !important;
+    color: rgb(255, 255, 255) !important;
+    text-align: center !important;
+    border-color: rgba(240, 167, 57, 0.811) !important;
+}
+
+.carousel_div {
+    position: relative !important;
+    
+  } 
+  
+
+.carousel_text{
+     
+        position: absolute !important;
+        top: 100px !important;
+        right: 100 !important;
+        margin-top: 50px !important;
+        
+      }
+   
+.carousel_header_text{
+     font-family: 'Poppins', sans-serif;
+     font-weight: 900;
+}

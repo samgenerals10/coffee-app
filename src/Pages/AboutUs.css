@@ -1,0 +1,40 @@
+.about_box{
+    margin-top: 100px;
+    margin-left: -50px;
+    
+}
+
+.about_image{
+    box-shadow: 0 4px 8px 
+    0 rgba(250, 2, 2, 0.2), 
+    0 6px 20px 
+    0 rgba(215, 214, 214, 0.406);
+}
+
+.card_mainBox_Style{
+    color: #000000;
+    height: 50px !important;
+    width: 500px !important;
+    
+    /* border-radius: 20px !important; */
+}
+
+.cardStyle{
+    background-color: black;
+  background-color: #01020c;
+  background-color: #4e1b04;
+  background-image: linear-gradient(53deg, #895306 0%, #000000 46%, #000000 100%);
+    border-color: #995302 !important;
+    margin-left: -20px;
+}
+
+.P_Text_head{
+    font: bold;
+    color: #fff;
+}
+
+.P_Text{
+    color: #fff;
+    font-weight: 500;
+    
+}
