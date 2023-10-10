@@ -1,10 +1,16 @@
-.img-thumbnail{
-    border: none;
+
+.service-image{
+    border: none !important;
+}
+.services{
+    margin-top: 5% !important;
+    padding-bottom: 50px;
+    
 }
 
-.services{
-    margin-top: 5px;
-    
+.service-title{
+  padding-top: 5% !important;
+  padding-bottom: 3% !important;
 }
 
  
@@ -22,12 +28,13 @@
     position: relative !important;
     width: 275px !important;
     height: 275px !important;
-    background: #000 !important;
+    background: #9b0202 !important;
     transition: 0.5s !important;
     transform-style: preserve-3d !important;
     overflow: hidden !important;
     margin-right: 15px !important;
     margin-top: 45px !important;
+    border: none !important;
   }
   .main_box:hover .mid_box {
     transform: rotateY(25deg) !important;
@@ -37,8 +44,8 @@
   }
   .main_box .mid_box:hover {
     transform: rotateY(0deg) scale(1.25) !important;
-    z-index: 1 !important;
-    box-shadow: 0 25px 40px rgba(0,0,0,0.5)!important;
+    z-index: 3 !important;
+    box-shadow: 0 5px 20px rgb(255, 255, 255)!important;
   }
   .main_box .mid_box .img_box {
     position: absolute!important;
@@ -79,18 +86,21 @@
     height: 100% !important;
     z-index: 1 !important;
     display: flex !important;
-    padding: 20px !important;
+    padding: 11px !important;
     align-items: flex-end !important;
     box-sizing: border-box !important;
   }
   .main_box .mid_box .text_content h2 {
-    color: #fff !important;
+    color: #ffffff !important;
     transition: 0.5s !important;
     text-transform: uppercase !important;
     margin-bottom: 5px !important;
-    font-size: 13px !important;
+    font-size: 15px !important;
+    font-weight: 900;
     transform: translateY(200px) !important;
     transition-delay: 0.3s !important;
+    padding-bottom: 10% !important;
+    padding-left: 0% !important;
   }
   .main_box .mid_box:hover .text_content h2 {
     transform: translateY(0px) !important;
@@ -98,10 +108,14 @@
   .main_box .mid_box .text_content p {
     color: #fff !important;
     transition: 0.5s !important;
-    font-size: 8px !important;
+    font-size: 10px !important;
+    font-weight: 500;
     transform: translateY(200px) !important;
     transition-delay: 0.4s !important;
+    padding-bottom: 8% !important;
+    padding-right: 20% !important;
   }
+
   .main_box .mid_box:hover .text_content p {
     transform: translateY(0px) !important;
   }

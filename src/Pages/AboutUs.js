@@ -8,6 +8,8 @@ import aboutPhoto from "../images/ABOUTPHOTO.jpg";
 const AboutUs = () => {
   return (
     <div className="about_box" id="about">
+      <br/>
+      <br/>
       <Row className="mx-auto" text-center="true">
         <Col >
           <img className="rounded about_image" src={aboutPhoto} height={450} width={400} />

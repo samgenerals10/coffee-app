@@ -1,10 +1,9 @@
 import React from "react";
 import { Carousel} from 'react-bootstrap';
-import coffee1 from '../../images/Banner1.png';
-import coffee2 from '../../images/Banner 2.png';
-import coffee3 from '../../images/Banner3.png';
+import coffee1 from '../../images/coffeenewbanner2.jpg';
+import coffee2 from '../../images/coffeenewbanner.jpg';
+import coffee3 from '../../images/coffeenewbanner3.jpg';
 import './Carousel.css'
-
 
 
 
@@ -12,11 +11,11 @@ import './Carousel.css'
 
 function Caro() {
   return (
-    <>
-    <Carousel className="position-relative carousel_div">
-    <Carousel.Item>
+    <div className="carousel_div">
+    <Carousel className="position-relative">
+    <Carousel.Item className="carousel_image_box">
       <img
-        className="d-block w-100"
+        className="d-block caroursel_image w-100"
         src={coffee1}
         alt="First slide"
         height={600}
@@ -33,9 +32,9 @@ function Caro() {
       
     </Carousel.Item>
 
-    <Carousel.Item>
+    <Carousel.Item className="carousel_image_box">
       <img
-        className="d-block w-100"
+        className="d-block caroursel_image  w-100"
         src={coffee2}
         alt="Second slide"
         height={600}
@@ -50,9 +49,9 @@ function Caro() {
       <button type="button" className="btn btn-outline-danger rounded-pill botton_list">Shop Now</button>
       </Carousel.Caption>
     </Carousel.Item>
-    <Carousel.Item>
+    <Carousel.Item className="carousel_image_box">
       <img
-        className="d-block w-100"
+        className="d-block caroursel_image  w-100"
         src={coffee3}
         alt="Third slide"
         height={600}
@@ -68,7 +67,7 @@ function Caro() {
       </Carousel.Caption>
     </Carousel.Item>
   </Carousel>
-  </>
+  </div>
 
 
    

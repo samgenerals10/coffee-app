@@ -11,12 +11,11 @@ import OurServices from '../Our-Services';
 
 function Home() {
   return (
-    <Container className="container-fluid" id="home">
+    <Container  id="home">
       <Navbars/>
       <Caro/>
       <OurServices />
       <AboutUs/>
-      <News />
      <CommonQuestion/>
      <ContactUs/>
     </Container>

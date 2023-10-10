@@ -1,6 +1,7 @@
 .CaroCaro{
     /* padding-top: 20%; */
-    margin-top: 60%;
+    margin-top: 60% !important;
+    height: 40rem !important;
 }
 .CaroCaro_1{
     margin-top: 68%;
@@ -8,20 +9,36 @@
 .botton_list{
     width: 120px !important;
     height: 35px !important;
-    background-color: rgba(103, 43, 3, 0.893) !important;
+    background-color: rgb(0, 0, 0) !important;
     color: rgb(255, 255, 255) !important;
     text-align: center !important;
-    border-color: rgba(240, 167, 57, 0.811) !important;
+    
 }
 
 .carousel_div {
     position: relative !important;
+    width: 100% !important;
+    height: 500px !important;
+    background-color: rgb(0, 0, 0);
+    margin-top: 5% !important;
     
   } 
+
+  .carousel_image_box{
+    position: relative !important;
+    width: 100% !important;
+    height: 550px !important;
+    background-color: red;
+    margin-top: 5% !important;
+    
+  }
+
+.caroursel_image {
+    height: 100% !important;
+}
   
 
 .carousel_text{
-     
         position: absolute !important;
         top: 100px !important;
         right: 100 !important;

@@ -1,14 +1,18 @@
 .about_box{
-    margin-top: 100px;
+    /* margin-top: 400px  !important; */
     margin-left: -50px;
+    margin-top: 2% !important;
+    margin-bottom: 10% !important;
+    padding-top: 10% !important;
+
     
 }
 
 .about_image{
     box-shadow: 0 4px 8px 
-    0 rgba(250, 2, 2, 0.2), 
-    0 6px 20px 
-    0 rgba(215, 214, 214, 0.406);
+    0 rgb(101, 75, 2), 
+    0 10px 50px 
+    0 rgb(255, 255, 255) !important;
 }
 
 .card_mainBox_Style{
@@ -21,10 +25,10 @@
 
 .cardStyle{
     background-color: black;
-  background-color: #01020c;
-  background-color: #4e1b04;
-  background-image: linear-gradient(53deg, #895306 0%, #000000 46%, #000000 100%);
-    border-color: #995302 !important;
+    background-color: #01020c;
+    background-color: #4e1b04;
+    background-image: linear-gradient(53deg, #895306 0%, #000000 46%, #000000 100%);
+    border-color:linear-gradient(43deg, #895306 0%, #000000 46%, #000000 100%) !important;
     margin-left: -20px;
 }
 
